@@ -13,11 +13,13 @@ import {
 
 const App = () => {
 	return (
-		<main className="relative overflow-hidden	bg-gray-100">
+		<main className="relative overflow-hidden	">
 			<Nav />
-			<section className="xl:padding-1 wide:padding-r padding-b mt-24">
+
+			<section className="xl:padding-l wide:padding-r padding-b ">
 				<Hero />
 			</section>
+
 			<section className="padding">
 				<PopularProducts />
 			</section>
