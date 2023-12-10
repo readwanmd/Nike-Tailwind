@@ -1,0 +1,7 @@
+.nav-items {
+	@apply flex-1 flex justify-center items-center gap-16 max-lg:gap-4 max-lg:flex-col max-lg:absolute top-24 right-[-320px] max-lg:bg-white max-lg:mt-[-3px] max-lg:w-80 max-lg:py-8 transition-all duration-500;
+}
+
+.shown {
+	right: 0;
+}
