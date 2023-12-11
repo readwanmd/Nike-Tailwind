@@ -30,7 +30,9 @@ const Hero = () => {
 					your active life.
 				</p>
 
-				<Button label="Shop now" icon={arrowRight} />
+				<a href="#products">
+					<Button label="Shop now" icon={arrowRight} />
+				</a>
 
 				<div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
 					{statistics.map((stat, index) => (
