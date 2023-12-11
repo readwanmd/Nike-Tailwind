@@ -13,7 +13,7 @@ import {
 
 const App = () => {
 	return (
-		<main className="relative overflow-hidden	">
+		<main className="relative overflow-hidden dark:bg-gray-900	">
 			<Nav />
 
 			<section className="xl:padding-l wide:padding-r padding-b ">
