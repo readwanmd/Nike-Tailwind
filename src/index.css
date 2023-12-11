@@ -19,7 +19,7 @@
 	}
 
 	.input {
-		@apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
+		@apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:py-3 max-sm:px-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
 	}
 }
 
@@ -55,4 +55,31 @@
 	.info-text {
 		@apply font-montserrat text-slate-gray text-lg leading-7;
 	}
+}
+
+:root {
+	--primary: #3c3c3c;
+	--secondary: #ff6452;
+}
+
+/* Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+	background: var(--primary);
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--secondary);
+	border-radius: 14px;
+	height: 10vh;
+	border: 3px solid var(--primary);
 }

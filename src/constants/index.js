@@ -110,6 +110,13 @@ export const reviews = [
 		feedback:
 			"The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
 	},
+	// {
+	// 	imgURL: customer3,
+	// 	customerName: 'Md Readwan',
+	// 	rating: 4.5,
+	// 	feedback:
+	// 		"Not only did the product meet my requirements, but also I enjoyed it. I'll most certainly be back to buy,  Recommended!!",
+	// },
 ];
 
 export const footerLinks = [
