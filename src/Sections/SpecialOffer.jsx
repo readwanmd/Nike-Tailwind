@@ -16,7 +16,7 @@ const SpecialOffer = () => {
 			</div>
 
 			<div className="flex flex-1 flex-col">
-				<h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
+				<h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg dark:text-white-400">
 					<span className="text-coral-red">Special</span> Offer
 				</h2>
 				<p className="mt-4 info-text">

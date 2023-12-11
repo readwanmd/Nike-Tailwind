@@ -36,7 +36,7 @@ const App = () => {
 				<SpecialOffer />
 			</section>
 
-			<section className="bg-pale-blue padding">
+			<section className="bg-pale-blue dark:bg-gray-800 padding">
 				<CustomerReviews />
 			</section>
 
@@ -44,7 +44,7 @@ const App = () => {
 				<Subscribe />
 			</section>
 
-			<section className="bg-black padding-x padding-t pb-8">
+			<section className="bg-black dark:bg-gray-800 padding-x padding-t pb-8">
 				<Footer />
 			</section>
 		</main>
